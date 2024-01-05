@@ -76,7 +76,7 @@ const widget = ({ type }) => {
     <div className="widget">
       <div className="left">
         <span className="title">{data.title}</span>
-        <span className="counter">{data.isMoney && "$"} {amount}</span>
+        <span className="counter">{data.isMoney && "$"} {amount}</span> {/* data.isMoney && "$" ye condition hai k agr isMoney true hai tou dollar sign dikhao */}
         <span className="link">{data.link}</span>
       </div>
       <div className="right">
